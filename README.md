@@ -4,6 +4,7 @@ PTZController is a python3-based webserver application for controlling ONVIF-cap
 It includes a webpage for controlling velocity, direction, and presets. There is also a webpage browser dock page for OBS Studio for quick access to Presets.
 
 ## Installation
+* Requires Python 3.9.20. Check [requirements.sh](requirements.sh) to check.
 * Download or Clone this repository.
 * Open a command or terminal window.
 * CD to where you unzipped or cloned the repository.

@@ -2,9 +2,7 @@ import re
 import logging
 from configparser import ConfigParser
 
-
-FILENAME = "PTZController.conf"
-
+FILENAME = "PTZController.user.conf"
 
 class Config(ConfigParser):
     """ Wraps access to particular values in a config file """

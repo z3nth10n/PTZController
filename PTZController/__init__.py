@@ -66,6 +66,8 @@ class PTZController(object):
             'server.thread_pool': 10,
         }
 
+        options['server.socket_host'] = '0.0.0.0' # @todo
+        # self.CONFIG.getstring('Webserver', 'server_host', fallback='127.0.0.1')
         options['server.socket_port'] = self.CONFIG.getint('Webserver', 'server_port', fallback=8080)
 
         cherrypy.config.update(options)
