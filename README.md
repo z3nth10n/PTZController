@@ -72,3 +72,5 @@ The webserver has command recognition so that any ONVIF camera should work with 
 ## CREDITS
 * MikhaelMIEM/ONVIFCameraControl for the original ONVIF camera access code.
 * bobboteck/JoyStick for the javascript joystick code. 
+
+https://www.onvif.org/onvif/ver20/util/operationIndex.html
